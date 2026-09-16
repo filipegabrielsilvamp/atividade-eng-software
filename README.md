@@ -3,12 +3,12 @@ Projeto desenvolvido em Python para a disciplina de **Algoritmos e Programação
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 Este projeto tem como objetivo gerenciar o fluxo de estudos e tarefas acadêmicas através de um sistema CRUD no terminal, auxiliando e ajudando estudantes na organização de suas pendências.
 
 ---
 
-## 📊 Tipos de Dados
+## Tipos de Dados
 - **Título da Tarefa:** `string`
 - **Matéria/Assunto:** `string`
 - **Prioridade (1 a 3):** `int`
@@ -18,7 +18,7 @@ Este projeto tem como objetivo gerenciar o fluxo de estudos e tarefas acadêmica
 
 ---
 
-## ⚙️ Funcionalidades (CRUD)
+## Funcionalidades (CRUD)
 - Cadastrar nova tarefa (Create)
 - Listar tarefas pendentes (Read)
 - Atualizar status e detalhes da tarefa (Update)
@@ -26,7 +26,7 @@ Este projeto tem como objetivo gerenciar o fluxo de estudos e tarefas acadêmica
 
 ---
 
-## 📌 Requisitos do Sistema
+## Requisitos do Sistema
 
 ### Requisitos Funcionais
 - **RF01** - O sistema deve autorizar o cadastro de novas tarefas com suas especificações.
@@ -48,7 +48,7 @@ Este projeto tem como objetivo gerenciar o fluxo de estudos e tarefas acadêmica
 
 ---
 
-## 💡 Defesa do Projeto (Justificativas Acadêmicas)
+## Defesa do Projeto (Justificativas Acadêmicas)
 
 ### Por que escolher esse tema?
 - **Justificativa do Tema:** Um gerenciador de tarefas acadêmicas dentro do  contexto de alunos de programação e também auxilia para uma melhor gestão de suas responsabilidades, sendo uma aplicação útil para a rotina estudantil.
