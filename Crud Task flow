@@ -1,0 +1,272 @@
+
+# ==========================================
+# TASKFLOW - GERENCIADOR DE ESTUDOS E TAREFAS
+# ==========================================
+
+# Lista principal que armazena todas as tarefas
+tarefas = []
+
+
+# CREATE - Cadastrar tarefa
+def cadastrar_tarefa():
+    print("\n===== CADASTRAR TAREFA =====")
+
+    # Validação do título
+    while True:
+        titulo = input("Título da tarefa: ").strip()
+
+        if len(titulo) >= 3:
+            break
+        else:
+            print("O título deve possuir pelo menos 3 caracteres.")
+
+    materia = input("Matéria/Assunto: ").strip()
+
+    # Validação da prioridade
+    while True:
+        prioridade = input("Prioridade (1-Baixa, 2-Média, 3-Alta): ")
+
+        if prioridade.isdigit():
+            prioridade = int(prioridade)
+
+            if prioridade >= 1 and prioridade <= 3:
+                break
+
+        print("Informe uma prioridade entre 1 e 3.")
+
+    # Validação do prazo
+    while True:
+        prazo = input("Dias restantes para o prazo: ")
+
+        if prazo.isdigit():
+            prazo = int(prazo)
+            break
+        else:
+            print("Informe um número inteiro não negativo.")
+
+    # Validação das horas estimadas
+    while True:
+        horas = input("Horas estimadas: ").replace(",", ".")
+
+        if horas.replace(".", "", 1).isdigit():
+            horas = float(horas)
+
+            if horas > 0:
+                break
+
+        print("Informe uma quantidade de horas maior que zero.")
+
+    descricao = input("Descrição: ").strip()
+
+    # Classificação automática da urgência
+    if prazo <= 2:
+        urgencia = "Urgente"
+    else:
+        urgencia = "No Prazo"
+
+    # Dicionário que representa uma tarefa
+    tarefa = {
+        "titulo": titulo,
+        "materia": materia,
+        "prioridade": prioridade,
+        "prazo": prazo,
+        "horas": horas,
+        "descricao": descricao,
+        "urgencia": urgencia,
+        "status": "Pendente"
+    }
+
+    # Adiciona o dicionário à lista principal
+    tarefas.append(tarefa)
+
+    print("\nTarefa cadastrada com sucesso!")
+    print("Classificação:", urgencia)
+
+
+# READ - Consultar tarefas
+def listar_tarefas():
+    print("\n===== TAREFAS CADASTRADAS =====")
+
+    if len(tarefas) == 0:
+        print("Nenhuma tarefa cadastrada.")
+    else:
+        for i in range(len(tarefas)):
+            tarefa = tarefas[i]
+
+            print("\n-----------------------------")
+            print("ID:", i + 1)
+            print("Título:", tarefa["titulo"])
+            print("Matéria:", tarefa["materia"])
+            print("Prioridade:", tarefa["prioridade"])
+            print("Prazo:", tarefa["prazo"], "dias")
+            print("Horas estimadas:", tarefa["horas"])
+            print("Descrição:", tarefa["descricao"])
+            print("Urgência:", tarefa["urgencia"])
+            print("Status:", tarefa["status"])
+
+
+# UPDATE - Atualizar tarefa
+def atualizar_tarefa():
+    listar_tarefas()
+
+    if len(tarefas) == 0:
+        return
+
+    id_tarefa = input("\nDigite o ID da tarefa: ")
+
+    if id_tarefa.isdigit():
+        id_tarefa = int(id_tarefa)
+
+        if id_tarefa >= 1 and id_tarefa <= len(tarefas):
+            tarefa = tarefas[id_tarefa - 1]
+
+            print("\n===== ATUALIZAR TAREFA =====")
+            print("Deixe o campo vazio para manter o valor atual.")
+
+            titulo = input("Novo título: ").strip()
+
+            if titulo == "":
+                pass
+            elif len(titulo) >= 3:
+                tarefa["titulo"] = titulo
+            else:
+                print("Título inválido. Valor mantido.")
+
+            materia = input("Nova matéria: ").strip()
+
+            if materia != "":
+                tarefa["materia"] = materia
+
+            prioridade = input("Nova prioridade (1, 2 ou 3): ")
+
+            if prioridade.isdigit():
+                prioridade = int(prioridade)
+
+                if prioridade >= 1 and prioridade <= 3:
+                    tarefa["prioridade"] = prioridade
+                else:
+                    print("Prioridade inválida. Valor mantido.")
+            elif prioridade != "":
+                print("Prioridade inválida. Valor mantido.")
+
+            prazo = input("Novo prazo em dias: ")
+
+            if prazo.isdigit():
+                tarefa["prazo"] = int(prazo)
+            elif prazo != "":
+                print("Prazo inválido. Valor mantido.")
+
+            horas = input("Novas horas estimadas: ").replace(",", ".")
+
+            if horas == "":
+                pass
+            elif horas.replace(".", "", 1).isdigit():
+                horas = float(horas)
+
+                if horas > 0:
+                    tarefa["horas"] = horas
+                else:
+                    print("As horas devem ser maiores que zero.")
+            else:
+                print("Valor inválido. Horas mantidas.")
+
+            descricao = input("Nova descrição: ").strip()
+
+            if descricao != "":
+                tarefa["descricao"] = descricao
+
+            print("\n===== ATUALIZAR STATUS =====")
+            print("1 - Pendente")
+            print("2 - Concluída")
+            print("3 - Cancelada")
+
+            status = input("Escolha o novo status: ")
+
+            if status == "1":
+                tarefa["status"] = "Pendente"
+            elif status == "2":
+                tarefa["status"] = "Concluída"
+            elif status == "3":
+                tarefa["status"] = "Cancelada"
+            elif status != "":
+                print("Status inválido. Valor mantido.")
+
+            # Atualiza a urgência conforme o novo prazo
+            if tarefa["prazo"] <= 2:
+                tarefa["urgencia"] = "Urgente"
+            else:
+                tarefa["urgencia"] = "No Prazo"
+
+            print("\nTarefa atualizada com sucesso!")
+
+        else:
+            print("ID inválido.")
+    else:
+        print("Informe um ID numérico.")
+
+
+# DELETE - Remover tarefa
+def remover_tarefa():
+    listar_tarefas()
+
+    if len(tarefas) == 0:
+        return
+
+    id_tarefa = input("\nDigite o ID da tarefa que deseja remover: ")
+
+    if id_tarefa.isdigit():
+        id_tarefa = int(id_tarefa)
+
+        if id_tarefa >= 1 and id_tarefa <= len(tarefas):
+            tarefa = tarefas[id_tarefa - 1]
+
+            # Só permite excluir tarefas concluídas ou canceladas
+            if tarefa["status"] == "Concluída" or tarefa["status"] == "Cancelada":
+                tarefas.pop(id_tarefa - 1)
+                print("\nTarefa removida com sucesso!")
+            else:
+                print("\nA tarefa precisa estar concluída ou cancelada.")
+        else:
+            print("ID inválido.")
+    else:
+        print("Informe um ID numérico.")
+
+
+# MENU PRINCIPAL
+def menu():
+    while True:
+        print("\n================================")
+        print("           TASKFLOW")
+        print("   Gerenciador de Estudos")
+        print("================================")
+        print("1 - Cadastrar tarefa")
+        print("2 - Consultar tarefas")
+        print("3 - Atualizar tarefa")
+        print("4 - Remover tarefa")
+        print("5 - Sair")
+        print("================================")
+
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            cadastrar_tarefa()
+
+        elif opcao == "2":
+            listar_tarefas()
+
+        elif opcao == "3":
+            atualizar_tarefa()
+
+        elif opcao == "4":
+            remover_tarefa()
+
+        elif opcao == "5":
+            print("\nObrigado por utilizar o TaskFlow!")
+            break
+
+        else:
+            print("\nOpção inválida. Escolha de 1 a 5.")
+
+
+# Inicialização do programa
+menu()
