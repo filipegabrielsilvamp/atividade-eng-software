@@ -111,7 +111,7 @@ Atualize a cada commit (troque ⬜ por ✅).
 | 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ |✅  |
 | 1 | Campo 02 — Aprofundamento | 16/11 | ✅ |  ✅|
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | |  |
-| 2 | Checkpoint Conceitual | 21/11 | ✅|  |
+| 2 | Checkpoint Conceitual | 21/11 | |  |
 | 2 | Campo 03 — Execução e desvios | 21/11 |  |  |
 | 2 | Campo 04 — Interação com IA | 21/11 | ⬜ | ⬜ |
 | 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ⬜ | ⬜ |
@@ -163,11 +163,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ ] Identificação preenchida: (Todoist,https://github.com/filipegabrielsilvamp/atividade-eng-software.git , Gustavo Farias)
-- [ ] Campo 01: 3 Aprendi:sobre estruturas condicionais a if que so executa caso a condição for verdadeira, else um bloco verdadeiro e outro falso e elif que permite analisar diversos valores, Estrutura de repetição for e while, for percorre sequencias com tamanho conhecido e while se repete enquanto uma condição não mudar e as variaveis que servem para o armazenamento de informações, 3 lacunas:Como fazer de forma totalmente correta as estruturas de programção,como desenvolver um app e evitar repetições repetitivas dentro do codigo. hipótese de até 5 linhas: Acredito que posso desenvolver um sistem de python que faça com que funcione um gerenciador de tarefas.
-- [ ] Registros dos Ciclos:escolhendo o projeto, começando a montar a ideia e deixando-a mais completa, mudando alguns detalhes da ideia pois achei alguns erros nela, montando a base do programa, colocando em pratica o que aprendi em sala e por fim aprimorando o programa.
-- [ ] Campo 02: base e fonte e hipotese revisada:Todoist e notes, consegui montar um program de gerenciamento de tarefas base com python.
-- [ ] Commits no GitHub e painel atualizado: https://github.com/filipegabrielsilvamp/atividade-eng-software.git
+- [✅ ] Identificação preenchida: (Todoist,https://github.com/filipegabrielsilvamp/atividade-eng-software.git , Gustavo Farias)
+- [✅] Campo 01: 3 Aprendi:sobre estruturas condicionais a if que so executa caso a condição for verdadeira, else um bloco verdadeiro e outro falso e elif que permite analisar diversos valores, Estrutura de repetição for e while, for percorre sequencias com tamanho conhecido e while se repete enquanto uma condição não mudar e as variaveis que servem para o armazenamento de informações, 3 lacunas:Como fazer de forma totalmente correta as estruturas de programção,como desenvolver um app e evitar repetições repetitivas dentro do codigo. hipótese de até 5 linhas: Acredito que posso desenvolver um sistem de python que faça com que funcione um gerenciador de tarefas.
+- [✅] Registros dos Ciclos:escolhendo o projeto, começando a montar a ideia e deixando-a mais completa, mudando alguns detalhes da ideia pois achei alguns erros nela, montando a base do programa, colocando em pratica o que aprendi em sala e por fim aprimorando o programa.
+- [✅] Campo 02: base e fonte e hipotese revisada:Todoist e notes, consegui montar um program de gerenciamento de tarefas base com python.
+- [✅ ] Commits no GitHub e painel atualizado: https://github.com/filipegabrielsilvamp/atividade-eng-software.git
         
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
