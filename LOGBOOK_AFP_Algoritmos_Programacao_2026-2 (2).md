@@ -106,13 +106,13 @@ Atualize a cada commit (troque ⬜ por ✅).
 
 | Grupo | Item | Prazo | Preenchido | Commit |
 |:--:|---|---|:--:|:--:|
-| 1 | Identificação | 16/11 | ⬜ | ⬜ |
-| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 01 — Instrumento de entrada | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 02 — Aprofundamento | 16/11 | ⬜ | ⬜ |
-| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
-| 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
+| 1 | Identificação | 16/11 | ✅ | ✅ |
+| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 |  ✅| ✅ |
+| 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ |✅  |
+| 1 | Campo 02 — Aprofundamento | 16/11 | ✅ |  ✅|
+| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | |  |
+| 2 | Checkpoint Conceitual | 21/11 | ✅|  |
+| 2 | Campo 03 — Execução e desvios | 21/11 |  |  |
 | 2 | Campo 04 — Interação com IA | 21/11 | ⬜ | ⬜ |
 | 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ⬜ | ⬜ |
 | 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ⬜ | ⬜ |
@@ -124,7 +124,7 @@ Atualize a cada commit (troque ⬜ por ✅).
 
 ## ❓ A questão-problema da AFP
 
-**Título:** *O sistema em produção: diagnosticando as falhas do CRUD que você mesmo construiu.*
+**Titulo:Crud TaskFlow *O sistema em produção: Bom o crud por ser feito por um iniciante apresenta falhas por ser um sistema que poderia funcionar melhor e de forma mais pratica por alguem mais experiente.*
 
 > **Enunciado completo (Apêndice A):** _professor(a): cole aqui o enunciado e os anexos liberados conforme o cronograma._
 
@@ -138,13 +138,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 ```markdown
 ### Registro do Ciclo NN — DD/MM
-1. **Desafio do ciclo (em 1 frase):**
-2. **O que implementei (commits / arquivos / links):**
-3. **Objeto(s) de conhecimento mobilizado(s) (vocabulário técnico):**
-4. **Desvio ou erro encontrado + causa técnica:**
-5. **Decisão de ajuste + fonte (livro, doc, vídeo, colega, IA):**
-6. **Feedback recebido (professor/colega) e o que mudei por causa dele:**
-7. **Próximo passo:**
+1. **Entender como funcionava um Crud e desenvolver um sistema do zero.
+2. **O que implementei com o tempo: fui melhorando o sistema, evoluindo a estruturas de dados e tambem entendendo as variáveis
+3. **Objeto(s) de conhecimento mobilizado):*Aprender sobre a logica de programação, algoritimos e evoluir na estrutura de dados.*
+4. **Desvio ou erro encontrado + causa técnica:*Erros na estrutura de progamação por conta da minha pouca expiência com o assunto e com a pratica da programação*
+5. **Decisão de ajuste + fonte (livro, doc, vídeo, colega, IA):*Mudei algumas coisas na minha ideia inical porque estavam equivocadas e meu amigo me falou isso*
+6. **Feedback recebido (professor/colega) e o que mudei por causa dele:*Mudei a estrutura do meu CRUD por conta de um feedback do meu amigo.*
+7. **Próximo passo:*Aprimorar tecnicamente a estrutra do programa e conseguir fazer um aplicativo de fato.*
 ```
 
 **Como preencher bem:** escreva como se explicasse a um colega que não esteve na aula. O item 3 e o item 5 são os mais importantes: eles ligam o que você fez ao **conteúdo** e à **fonte**.
@@ -163,11 +163,12 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
-- [ ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
-- [ ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
-- [ ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
-- [ ] Commits no GitHub e painel atualizado
+- [ ] Identificação preenchida: (Todoist,https://github.com/filipegabrielsilvamp/atividade-eng-software.git , Gustavo Farias)
+- [ ] Campo 01: 3 Aprendi:sobre estruturas condicionais a if que so executa caso a condição for verdadeira, else um bloco verdadeiro e outro falso e elif que permite analisar diversos valores, Estrutura de repetição for e while, for percorre sequencias com tamanho conhecido e while se repete enquanto uma condição não mudar e as variaveis que servem para o armazenamento de informações, 3 lacunas:Como fazer de forma totalmente correta as estruturas de programção,como desenvolver um app e evitar repetições repetitivas dentro do codigo. hipótese de até 5 linhas: Acredito que posso desenvolver um sistem de python que faça com que funcione um gerenciador de tarefas.
+- [ ] Registros dos Ciclos:escolhendo o projeto, começando a montar a ideia e deixando-a mais completa, mudando alguns detalhes da ideia pois achei alguns erros nela, montando a base do programa, colocando em pratica o que aprendi em sala e por fim aprimorando o programa.
+- [ ] Campo 02: base e fonte e hipotese revisada:Todoist e notes, consegui montar um program de gerenciamento de tarefas base com python.
+- [ ] Commits no GitHub e painel atualizado: https://github.com/filipegabrielsilvamp/atividade-eng-software.git
+        
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
 
