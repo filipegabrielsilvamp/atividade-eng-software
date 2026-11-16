@@ -252,13 +252,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 | _…_ | _…_ | _…_ |
 
 #### Registro do Ciclo 02 — 19/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender a aplicação de variáveis tambem outro recursos da programção para conseguir o armazenamneto de informações das tarefas no TASKFLOW…_
+2. **O que implementei (commits / arquivos / links):** _Implementei funcionalidades de cadastro,listagem,atualização e remoção de tarefas no meu aplicativo TASKFLOW, utilizando de variaveis, listas e dicionarios e a mostragem de informações no terminal https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/main.py…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Aprendi mais sobre as listas e dicionarios para o armazenamento de informações e tarefas.…_
+4. **Desvio ou erro encontrado + causa técnica:** _Indentifiquei um erro na estrutura do sistema onde mostrava que poderia gerar um erro caso o usuario digitasse um texto onde se espera numeros,como prazo, prioridades e etc, isso pode causar um erro e ser danoso pro usario…_
+5. **Decisão de ajuste + fonte:** _utilizei do tratamento de execões try e except para evitar transtornos por conta de entradas inválidas e a fonte é Documentação oficial do python sobre funções nativase tratamento de erros. .…_
+6. **Feedback recebido e o que mudei:** _Sem feedback nessa etapa…_
+7. **Próximo passo:** _Procurar cada vez mais melhorar meu programa, aprimorando o melhoramento de tratamento de erros e outras coisas para melhorar as funcionalidades do TASKFLOW.…_
 
 ## 🟢 CICLO 03 — 26/08 — Operadores, fluxogramas e paradigmas
 
@@ -271,13 +271,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 03 — 26/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Entender e aplicar operadores, vendo sua importancia para o aplicativo.…_
+2. **O que implementei (commits / arquivos / links):** _Nesse ciclo não fiz nenhum commit novo apenas fui observando possìveis mudanças…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Operadores aritimeticos, relacionais e logicos…_
+4. **Desvio ou erro encontrado + causa técnica:** _Não foi identificado desvios nesse ciclo.…_
+5. **Decisão de ajuste + fonte:** _Como não identifiquei mantive na mesma e não fiz ajuste.…_
+6. **Feedback recebido e o que mudei:** _Não recebi feedback nesse ciclo…_
+7. **Próximo passo:** _Aprofundar o uso de operadores e estruturas de controle para deixar o aplicativo mais organizado…_
 
 ## 🟢 CICLO 04 — 02/09 — Estruturas condicionais: `if`, `elif`, `else`
 
@@ -292,13 +292,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Colocar estruturas condicionais no TaskFlow para o controlamento das regras de negocio juntamente da validação de informações, garantindo que tudo seja executado conforme os critérios.…_
+2. **O que implementei (commits / arquivos / links):** _Implementação de estruturas condicionais nas funcionalidades do CRUD,https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/main.py …_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Estruturas condicionais estudo mais aprofundado, (if,elif e else…_
+4. **Desvio ou erro encontrado + causa técnica:** _Encontrado um numero muito grande de repetição no sistema do projeto o que pode atrapalhar a praticidade do programa.,…_
+5. **Decisão de ajuste + fonte:** _Decidi estudar para tentar diminuir essa repetição atraves dos livro de python como Introdução a programção com python…_
+6. **Feedback recebido e o que mudei:** _Não recebi feedback…_
+7. **Próximo passo:** _Melhorar a praticidade do programa.…_
 
 ---
 
