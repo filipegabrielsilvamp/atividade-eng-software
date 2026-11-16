@@ -198,35 +198,35 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **Campo 01 — Instrumento de entrada** · *sem consulta · faça primeiro*
 - Preencha **antes de tudo**, em um bloco contínuo de cerca de 15 minutos, sem internet, sem material, sem IA e sem colegas, depois de conhecer a questão-problema e a primeira amostra de dados do seu app. Depois do Campo 01 você pode consultar o que quiser.
-- **1a.** Liste pelo menos **3 objetos de conhecimento*Comecei a entender melhor como funcionava os laços de repetição, utilizei o que aprendi no ciclo 1 como a entrada e saida de dados para resultar nos primeiros passos do meu app aprendendo a programar melhor e aprendi sobre os dados primitivos.*
-- **1b.** Liste pelo menos **3 lacunas**: o que você **não sabe** e precisa descobrir, com precisão (ruim: "não sei programar"; bom: "não sei como validar a entrada para impedir que o usuário digite texto onde espero número"): Não sei exatamente como armazenar muitas informações ao mesmo tempo sem corromper o sistema, utilizar as variaveis de forma pratica e não utilizar corretamente a conversão sobre dados diferentes.
-- **1c.** Escreva sua **hipótese inicial** em até 5 linhas: o que você acha que está causando as falhas do CRUD e por quê.
-- Faça o commit **logo ao terminar**. Depois, **não edite** o Campo 01: Acredito que aprender o basico das funcionalidades de programção e a lógica por trás delas vai ser necessario para a produção de um aplicativo funcional e bom e pelo fato de eu não saber o basico erro muito ainda.
+- **1a.*  Liste pelo menos 3 objetos de conhecimento**
+- **1b.** Liste pelo menos **3 lacunas**: o que você** e precisa descobrir, com precisão (ruim: "não sei programar"; bom: "não sei como validar a entrada para impedir que o usuário digite texto onde espero número"):
+- **1c.** Escreva sua **Hipotese ** em até 5 linhas: o que você acha que está causando as falhas do CRUD e por quê.
+- Faça o commit **logo ao terminar**. Depois, **não edite** o Campo 01
 
 **Campo 02 — Aprofundamento** · *AV Qualis · segunda 16/11, 23h59*
 - Preencha **depois do Campo 01, com pesquisa real**, e seja coerente com ele.
-- **2a.** Pelo menos **2 referências** (livro, documentação, vídeo, artigo), cada uma com a **contribuição** concreta para a sua solução. Não basta listar o título: Documentação oficial do python-informação ao Python a documentação explica como funciona, listas e varios tipo de tecnicas de programação ajudando a estruturar o app do TASKFLOW e Referencia 2 Documentação oficial do python entrada e saida me ensinou o funcionamento do print e deixou a interação do taskflow mais organizada.
+- **2a.** Pelo menos **2 referências** (livro, documentação, vídeo, artigo), cada uma com a **contribuição** concreta para a sua solução. Não basta listar o título 
 - **2b.** **Hipótese revisada:** o que mudou em relação ao Campo 01 e **por quê**. Se não mudou nada, explique por que a pesquisa confirmou a hipótese: Não mudei pois aprender o basico das funcionou para corrigir diversos erros no meu sistema.
-- **2c.** **Dimensionamento inicial de recursos** (mínimo 3 itens), com quantidade estimada e justificativa técnica. Exemplos de recursos no seu contexto: horas de estudo, número de casos de teste, módulos/arquivos do projeto, dados de teste, bibliotecas: 6 horas de estudo e foi o necessario para entender o conceito das variavesi, tipos de dados e entrada/saida aplicando no projeto, dados de teste para evoluir o aplicativo 2, pois evolui no sentido da qualidade do sistema e na sua praticidade e 5 horas para aprender a colocar na pratica o que aprendi sobre programção e utilizar disso para fazer o meu aplicativo
+- **2c.** **Dimensionamento inicial de recursos** (mínimo 3 itens), com quantidade estimada e justificativa técnica. Exemplos de recursos no seu contexto: horas de estudo, número de casos de teste, módulos/arquivos do projeto, dados de teste, bibliotecas
 </details>
 
 ### 🧩 CAMPO 01 — Instrumento de entrada
 *Grupo 1 | Prazo segunda 16/11, 23h59 | SEM CONSULTA*
 
 **1a. Objetos de conhecimento identificados (mínimo 3, com vocabulário técnico):**
-1. _…_
-2. _…_
-3. _…_
+1. _Comecei a entender melhor os laços de repetição…_
+2. _utilizei o que aprendi no 1 ciclo como a entrada e saida de dados para resultar nos primeiros passos do meu aplicativo…_
+3. _Aprendi sobre os dados primitivos…_
 4. _…_ *(opcional)*
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. _…_
-2. _…_
-3. _…_
+1. _não sei como armanezar muitas informações ao mesmo tempo sem corromper o sistema…_
+2. _ não sei utilizar as variaveis de forma pratica sem ficar repetitivo no programa…_
+3. _Não sei utilizar conversão sobre dados…_
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
-> _…_
+> _ Acredito que aprender o basico das funcionalidades de programção e a lógica por trás delas vai ser necessario para a produção de um aplicativo funcional e bom e pelo fato de eu não saber o basico erro muito ainda.https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/Crud%20Task%20flow…_
 
 ### 🧩 CAMPO 02 — Aprofundamento pós-aula
 *AV Qualis — Grupo 1 | Segunda 16/11, 23h59*
@@ -235,19 +235,19 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** _…_ — **Contribuição:** _…_
-- **Referência 2:** _…_ — **Contribuição:** _…_
+- **Referência 1:** _Documentção oficial do python:Uma introdução informal ao python…_ — **Contribuição:**_ a documentação explica como funciona, listas e varios tipo de tecnicas de programação ajudando a estruturar o app do TASKFLOW…_
+- **Referência 2:** _Documentção oficial do python- entrada e saida…_ — **Contribuição:** _me ensinou o funcionamento do print e deixou a interação do taskflow mais organizada.…_
 
-**2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
+**2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:*Não mudei nada pois aprender o basico da programção funcionou para corrigir diversos erros no meu sistema.*
 
 > _…_
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
 | RECURSO / MATERIAL / INSUMO | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA |
-|---|---|---|
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
+|--computador-|--1-|-necessario para colocar em pratica a ideia do taskflow--|
+| _github…_ | _1…_ | _necessario para armazenar meu projeto…_ |
+| _…Horas de estudo_ | _5…_ | _necessario para aprender a programar e colocara a ideia em pratica…_ |
 | _…_ | _…_ | _…_ |
 | _…_ | _…_ | _…_ |
 
