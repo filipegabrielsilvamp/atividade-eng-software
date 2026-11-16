@@ -167,7 +167,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 - [✅] Campo 01: 3 Aprendi:sobre estruturas condicionais a if que so executa caso a condição for verdadeira, else um bloco verdadeiro e outro falso e elif que permite analisar diversos valores, Estrutura de repetição for e while, for percorre sequencias com tamanho conhecido e while se repete enquanto uma condição não mudar e as variaveis que servem para o armazenamento de informações, 3 lacunas:Como fazer de forma totalmente correta as estruturas de programção,como desenvolver um app e evitar repetições repetitivas dentro do codigo. hipótese de até 5 linhas: Acredito que posso desenvolver um sistem de python que faça com que funcione um gerenciador de tarefas.
 - [✅] Registros dos Ciclos:escolhendo o projeto, começando a montar a ideia e deixando-a mais completa, mudando alguns detalhes da ideia pois achei alguns erros nela, montando a base do programa, colocando em pratica o que aprendi em sala e por fim aprimorando o programa.
 - [✅] Campo 02: base e fonte e hipotese revisada:Todoist e notes, consegui montar um program de gerenciamento de tarefas base com python.
-- [✅ ] Commits no GitHub e painel atualizado: https://github.com/filipegabrielsilvamp/atividade-eng-software.git
+- [✅ ] Commits no GitHub e painel atualizado: https://github.com/filipegabrielsilvamp/atividade-eng-software.git, https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/Crud%20Task%20flow e https://github.com/filipegabrielsilvamp/atividade-eng-software/commit/d5b5bf5c10b13113bd662f8b8d8b707ebaa1b722.
         
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
@@ -183,13 +183,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Preparando tudo para começar a desenvolver a ideia do CRUD._
+2. **O que implementei (commits / arquivos / links):** _Criei um arquivo .md para descrever o a ideia do CRUD e um_ arquivo .py todos presentes https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/README.md e no  https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/main.py.
+3. **Objeto(s) de conhecimento mobilizado(s):** _Entendimento sobre algoritimos e suas funções sendo uma sequencia de instruções a ser seguidas , Entendi mais sobre as funções da programação, int, print e input entendendo melhor a logica por tras da programação e entendi melhor para organização de um projeto online.…_
+4. **Desvio ou erro encontrado + causa técnica:** _Tive bastante duvida sobre como organizar esse projeto, considerando que nunca tinha feito um projeto desse tamanho por um app online._
+5. **Decisão de ajuste + fonte:** _Decide mudar a forma como iria estruturar minha ideia por conta de um amigo._
+6. **Feedback recebido e o que mudei:** _Meu amigo falou que minha ideia tinha pontos de falhas e era muito simplista, então mudei._
+7. **Próximo passo:** _Começar a montar o sistema._
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -198,16 +198,16 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **Campo 01 — Instrumento de entrada** · *sem consulta · faça primeiro*
 - Preencha **antes de tudo**, em um bloco contínuo de cerca de 15 minutos, sem internet, sem material, sem IA e sem colegas, depois de conhecer a questão-problema e a primeira amostra de dados do seu app. Depois do Campo 01 você pode consultar o que quiser.
-- **1a.** Liste pelo menos **3 objetos de conhecimento** que você acha que precisa dominar para resolver o problema. Use o vocabulário técnico da área. *Não precisa acertar tudo — o Campo 07 vai mostrar o quanto você evoluiu.*
-- **1b.** Liste pelo menos **3 lacunas**: o que você **não sabe** e precisa descobrir, com precisão (ruim: "não sei programar"; bom: "não sei como validar a entrada para impedir que o usuário digite texto onde espero número").
+- **1a.** Liste pelo menos **3 objetos de conhecimento** que você acha que precisa dominar para resolver o problema. Use o vocabulário técnico da área. *Não precisa acertar tudo: Comecei a entender melhor como funcionava os laços de repetição, utilizei o que aprendi no ciclo 1 como a entrada e saida de dados para resultar nos primeiros passos do meu app aprendendo a programar melhor e aprendi sobre os dados primitivos.
+- **1b.** Liste pelo menos **3 lacunas**: o que você **não sabe** e precisa descobrir, com precisão (ruim: "não sei programar"; bom: "não sei como validar a entrada para impedir que o usuário digite texto onde espero número"): Não sei exatamente como armazenar muitas informações ao mesmo tempo sem corromper o sistema, utilizar as variaveis de forma pratica e utilizar corretamente a conversão sobre dados diferentes.
 - **1c.** Escreva sua **hipótese inicial** em até 5 linhas: o que você acha que está causando as falhas do CRUD e por quê.
-- Faça o commit **logo ao terminar**. Depois, **não edite** o Campo 01.
+- Faça o commit **logo ao terminar**. Depois, **não edite** o Campo 01: Acredito que aprender o basico das funcionalidades de programção e a lógica por trás delas vai ser necessario para a produção de um aplicativo funcional e bom e pelo fato de eu não saber o basico erro muito ainda.
 
 **Campo 02 — Aprofundamento** · *AV Qualis · segunda 16/11, 23h59*
 - Preencha **depois do Campo 01, com pesquisa real**, e seja coerente com ele.
-- **2a.** Pelo menos **2 referências** (livro, documentação, vídeo, artigo), cada uma com a **contribuição** concreta para a sua solução. Não basta listar o título.
-- **2b.** **Hipótese revisada:** o que mudou em relação ao Campo 01 e **por quê**. Se não mudou nada, explique por que a pesquisa confirmou a hipótese.
-- **2c.** **Dimensionamento inicial de recursos** (mínimo 3 itens), com quantidade estimada e justificativa técnica. Exemplos de recursos no seu contexto: horas de estudo, número de casos de teste, módulos/arquivos do projeto, dados de teste, bibliotecas.
+- **2a.** Pelo menos **2 referências** (livro, documentação, vídeo, artigo), cada uma com a **contribuição** concreta para a sua solução. Não basta listar o título: Documentação oficial do python-informação ao Python a documentação explica como funciona, listas e varios tipo de tecnicas de programação ajudando a estruturar o app do TASKFLOW e Referencia 2 Documentação oficial do python entrada e saida me ensinou o funcionamento do print e deixou a interação do taskflow mais organizada.
+- **2b.** **Hipótese revisada:** o que mudou em relação ao Campo 01 e **por quê**. Se não mudou nada, explique por que a pesquisa confirmou a hipótese: Não mudei pois aprender o basico das funcionou para corrigir diversos erros no meu sistema.
+- **2c.** **Dimensionamento inicial de recursos** (mínimo 3 itens), com quantidade estimada e justificativa técnica. Exemplos de recursos no seu contexto: horas de estudo, número de casos de teste, módulos/arquivos do projeto, dados de teste, bibliotecas: 6 horas de estudo e foi o necessario para entender o conceito das variavesi, tipos de dados e entrada/saida aplicando no projeto, dados de teste para evoluir o aplicativo 2, pois evolui no sentido da qualidade do sistema e na sua praticidade e 5 horas para aprender a colocar na pratica o que aprendi sobre programção e utilizar disso para fazer o meu aplicativo
 </details>
 
 ### 🧩 CAMPO 01 — Instrumento de entrada
