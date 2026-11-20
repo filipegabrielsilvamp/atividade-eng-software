@@ -391,17 +391,17 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59*
 
 **3a. O que descobri que mudou minha compreensão do problema (mínimo 2 achados, com objeto de conhecimento associado):**
-1. _…_ — *Objeto de conhecimento:* _…_
-2. _…_ — *Objeto de conhecimento:* _…_
+1. _Descobri que as validações são muito importamtes para que os usuários não coloquem titulos curtos ou tempos impossiveis como horas abaixo de zero.…_ — *Objeto de conhecimento:*_condicionais e operadores logicos…_
+2. _Descobri que listas e dicionários permitem organizar tarefas e fazer listas dentro de bibliotecas.…_ — *Objeto de conhecimento:* _Listas e dicionarios.…_
 3. _…_ *(opcional)*
 
 **3b. Desvio em relação ao Campo 02 (ao menos 1 — causa técnica):**
-- **Desvio:** _…_
-- **Causa técnica:** _…_
+- **Desvio:** _Os dados dentro do TaskFLow ficam armazenado apenas durante a execução do programa. …_
+- **Causa técnica:** _A utilização de uma lista em memoria permite guardar as informações mas apenas de forma temporária, como falta a integração dos dados, as informações se perdem quando a atividade do programa é encerrada.…_
 
 **3c. Decisão de ajuste (ao menos 1) com justificativa e fonte:**
-- **Decisão:** _…_
-- **Fonte:** _…_
+- **Decisão:** _Decidi manter a organização das tarefas em listas e dicionários, pois deixa muito mais fácil o gerenciamento dos dados.…_
+- **Fonte:** _Curso em video Professor Guanabara Video listas curso  python e Dicionarios curso python…_
 
 **Objeto de conhecimento mobilizado nesta decisão:** _…_
 
@@ -410,21 +410,21 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 > **Obrigatório e avaliado. Print sem análise crítica = devolução imediata. Reproduzir a IA sem questionamento = reprovado.**
 
-**4a. Ferramenta:** _…_  **Data:** _DD/MM/AAAA_
+**4a. Ferramenta:** _ChatGPT…_  **Data:** _12/08/2026_
 
 **4b. Pergunta formulada (transcrita integralmente):**
 
-> _…_
+> _Como colocar o CRUD em uma pasta para usar Github?…_
 
-**4c. Resposta da IA (resumida em parágrafo):**
-
-> _…_
-
-**4d. O que aceitei — com referência ao objeto de conhecimento do componente:**
+**4c. Resposta da IA (resumida em parágrafo):*A IA me explicou como criar o repositorio e que ele seria basicamente a 'pasta' que eu registraria meu CRUD através de commits.*
 
 > _…_
 
-**4e. O que questionei ou descartei — com argumento técnico ou fonte:**
+**4d. O que aceitei — com referência ao objeto de conhecimento do componente:*Aceitei a ideia de criar o repositorios e usar dele para o meu CRUD.*
+
+> _…_
+
+**4e. O que questionei ou descartei — com argumento técnico ou fonte:*Como a pergunta foi bem simples  e o chat me ensinou corretamente eu não identifiquei nada a ser descartado, então basicamente não vi necessidade de questionar ou descartar nada.*
 
 > _…_
 
@@ -441,13 +441,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 05 — 09/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** __Usar as estruturas condicionais e operadores logicos para fazer a implementação das regras de validação…_
+2. **O que implementei (commits / arquivos / links):** _utilizei de condicionais para fazer diversos tipos de verificação dentre elas titulo, prioridade e prazos. https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/main.py …_
+3. **Objeto(s) de conhecimento mobilizado(s):** _ estruturas condicionais:if, elif e else e operadores lógicos and e or…_
+4. **Desvio ou erro encontrado + causa técnica:** _Foi encontrado um erro onde as condições de validação estavam desorganizadas e permitindo que informações fora das regras fossem aceitas. podendo ocasionar em entradas invalidas…_
+5. **Decisão de ajuste + fonte:** _Utilizei de and para quando todas as condições precisassem ser verdadeiras e or quando uma delas precisasse ser verdeira. fonte foi documentação oficial python estruturas de controle e operadores booleanos.…_
+6. **Feedback recebido e o que mudei:** _sem feedback…_
+7. **Próximo passo:** _Estudar melhor sobre laços de repetição e como vou utilizar eles no meu projeto da melhor forma.…_
 
 ## 🟠 CICLO 06 — 30/09 — Devolutiva da P1 + repetição: `for`, `while`, `break`, `continue`
 
@@ -461,13 +461,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 06 — 30/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Compreender o funcionamento das estruturas de repetição.…_
+2. **O que implementei (commits / arquivos / links):** _Melhorei o crud atraves de estruturas de reptição. https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/main.py …_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Laços de repetição (for e while)…_
+4. **Desvio ou erro encontrado + causa técnica:** _Encontrei uso errado de while e for.…_
+5. **Decisão de ajuste + fonte:** _comecei a utilizar for para a listagem para trabalhar com registros na lista de tarefas e while para repetições em situações em que a repetição depende de condições.…_
+6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _Meus erros na p1 me fizeram perceber que eu precisava melhorar na materia estudando mais os conceitos presentes na prova.…_
+7. **Próximo passo:** _Continuar melhorando meu CRUD e entender os principais conceitos da p1.…_
 
 ## 🟠 CICLO 07 — 07/10 — Listas: armazenamento e iteração
 
