@@ -481,13 +481,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 07 — 07/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Fazer a organização das atividades do taskflow em uma lista que permite armazenar diversas atividades e informações_
+2. **O que implementei (commits / arquivos / links):** _usei a lista tarefas para fazer o armazenamento de tarefas.…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Listas em python._
+4. **Desvio ou erro encontrado + causa técnica:** _nenhum encontrado.…_
+5. **Decisão de ajuste + fonte:** _nada foi mudado…_
+6. **Feedback recebido e o que mudei:** _sem feedback recebido.…_
+7. **Próximo passo:** _Aprimorar as buscas de tarefas deixando a localização dos registros mais organizada e deixando o sistema mais completo.…_
 
 ## 🟠 CICLO 08 — 14/10 — Busca/consulta e introdução a dicionários e matrizes
 
@@ -502,13 +502,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 08 — 14/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Fazer consultas para encontrar as atividades do aplicativo e entender como os dicionarios organizam cada registro do CRUD.…_
+2. **O que implementei (commits / arquivos / links):** _nada implementado…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Estudo sobre o funcionamento dos dicionarios em python…_
+4. **Desvio ou erro encontrado + causa técnica:** _Nada encontrado.…_
+5. **Decisão de ajuste + fonte:** _nada adicionado…_
+6. **Feedback recebido e o que mudei:** _sem feedback…_
+7. **Próximo passo:** _Meu crud ja esta finalizado apenas esperar o feedback do professor.…_
 
 ---
 
@@ -545,13 +545,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 09 — 21/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Revisionar o funcionamento do CRUD e ve se esta tudo funcionando.…_
+2. **O que implementei (commits / arquivos / links):** _Apenas realizei revisões no Crud mas não adicionei nada_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Apenas reforcei meus conhecimentos nos codigos do meu aplicativo para ver se tinha algum erro ou falha…_
+4. **Desvio ou erro encontrado + causa técnica:** _nenhum erro encontrado…_
+5. **Decisão de ajuste + fonte:** _nada a ser adicionado…_
+6. **Feedback recebido e o que mudei:** _sem feedback…_
+7. **Próximo passo:** _Continuar analisando o projeto para ver o que melhorar…_
 
 ### 🧩 CAMPO 05 — Registro de Revisão por Pares
 *Adaptação do **Logbook do Time** (Apêndice C) para o CRUD individual. Documento atualizado pelo **revisor**. Cada decisão técnica relevante deve ter associado o objeto de conhecimento correspondente.*
