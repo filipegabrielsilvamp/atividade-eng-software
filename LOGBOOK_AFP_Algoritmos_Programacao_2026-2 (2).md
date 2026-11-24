@@ -620,13 +620,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 10 — 28/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Utilizar corretamente as funções de modularização.…_
+2. **O que implementei (commits / arquivos / links):** _https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/README.md…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Estudei sobre a modularização e entendi como funciona e como aplicar da melhor forma possivel, dividindo as operações deixando tudo mais organizado e coeso.…_
+4. **Desvio ou erro encontrado + causa técnica:** _Apenas a dificuldade de entender a modularização e compreender como funcionava.…_
+5. **Decisão de ajuste + fonte:** _basicamente separei as responsabilidades do programa em diferentes funções e fonte curso em video modulos..…_
+6. **Feedback recebido e o que mudei:** _Ainda não recebi feedback…_
+7. **Próximo passo:** _Estudar meu CRUD e melhorar o maximo possivel nele…_
 
 ## 🔵 CICLO 11 — 04/11 — Recursividade
 
@@ -642,35 +642,37 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 11 — 04/11
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _entender a recursividade e como uma função pode chamar a si mesma.…_
+2. **O que implementei (commits / arquivos / links):** _nada implementado.…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Recursividade e funções…_
+4. **Desvio ou erro encontrado + causa técnica:** _nenhum erro encontrado…_
+5. **Decisão de ajuste + fonte:** _nada a ser ajustado.…_
+6. **Feedback recebido e o que mudei:** _sem feedback…_
+7. **Próximo passo:** _Continuar estudando sobre o asssunto e tentando melhorar o projeto.…_
 
 ### 🧩 CAMPO 06 — Próximos passos para a defesa
 *AV Qualis — Grupo 3 | Individual | Quinta 26/11, 23h59*
 
 **6a. Decisão técnica que defendo com plena autonomia — o que aprendi que é exclusivamente meu e não consigo transferir para nenhum colega:**
 
-> _…_
+> _No aplicativo do TaskFlow a definição de urgencia automatica funciona a partir do prazo que falta para as atividades chegarem a seu tempo limite, então estabeleci que tarefas que possuem um tempo de 2 dias ou menos como 'urgente' e com mais que isso como 'no prazo', fazendo com que o usario prioriza mais determinadas tarefas o ajudando a ficar no prazo.
 
 **6b. Lacuna técnica e plano de ação para saná-la:**
 
-- **Lacuna:** _…_
-- **Plano de ação (passos e datas):** _…_
+- **Lacuna:** _A persistencia de dados pois o taskflow armazena dados em lista na memoria, fazendo com que os dados sejam perdidos assim que o usuario saia do aplicativo.…_
+- **Plano de ação (passos e datas):** _Revisar os codigos e ver o que pode ser melhorado. 10/11 e entender como JSON pode ser usados para salvar dados do aplicativo…_
 
 **6c. Pergunta que a banca pode fazer — com resposta fundamentada (mínimo 5 linhas):**
 
-- **Pergunta:** _…_
+- **Pergunta:** _Como o TaskFlow determina a urgencia de uma tarefa e o que acontece quando o usario altera o prazo?…_
 - **Resposta:**
 
-> _…_
+> _O TaskFLow utiliza o prazo que resta da tarefa para determinar de forma automatica sua urgencia, quando o prazo esta acimda de 2 dias esta no prazo e quanto tem 2 dias ou menos a classifição fica urgente. Essa logica é feita atraves de condicionais, que fazem a verificção do prazo e determinam qual será sua classificação.
+> E se um usario por acaso altera e modifica um prazo, a urgencia vai ser calculada novamente, fazendo com que corresponda ao dado atual.
+> Isso faz com que a tarefa fique atualizada  e tambem mantem as informações consistentes com os dados fornecidos pelo usuario do aplicativo.  …_
 
-**Objeto de conhecimento mobilizado:** _…_
-**Fonte:** _…_
+**Objeto de conhecimento mobilizado:** _Condicionais,variaveis, funções, validação de dados e lógica de programação.…_
+**Fonte:** _CRUD TaskFlow e curso em video python…_
 
 ## 🔵 CICLO 12 — 11/11 — Refatoração e qualidade de código
 
@@ -688,13 +690,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 12 — 11/11
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** _Melhorei a qualidade do meu codigo, o deixando com menos entradas invalidas e melhorando a interação do usuario ao meu CRUD.…_
+2. **O que implementei (commits / arquivos / links):** _https://github.com/filipegabrielsilvamp/atividade-eng-software/blob/main/Crud%20Task%20flow…_
+3. **Objeto(s) de conhecimento mobilizado(s):** _Validação de dados,condicionais,laços de repetição,funções, conversão de tipos, listas, dicionarios e logica de programção.…_
+4. **Desvio ou erro encontrado + causa técnica:** _Na minha versão anterior, algumas entradas numericas eram convertidas diretamente com int ou float, que pode gerar erros no caso do usuario digitar valores invalidos. e alem disso, durante a atualização era obrigatorio colocar os dados novamente, mesmo não querendo alterar eles, isso dificulta o uso do aplicativo e tambem o fluxo do programa.…_
+5. **Decisão de ajuste + fonte:** _Melhorei as validacões antes de realizar conversões numericas, utilizando isdigit e verificações das strings para as horas estimadas. mudei a atualização para permitir que os campos vazios mantenham os dados ja adicionados, facilitando o uso do aplicativo para o usuario. python curso em video. …_
+6. **Feedback recebido e o que mudei:** _Todo esses problemas foram alertados pelo meu colega e por isso decidi mudar o codigo.…_
+7. **Próximo passo:** _continuar estudando e melhorando o projeto.…_
 
 ### 🧩 CAMPO 05 — Registro de Revisão por Pares (revisão nº 2)
 
