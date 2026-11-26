@@ -750,30 +750,30 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **7a. O que eu pensava no início do ciclo (com base no Campo 01 — registrar a hipótese inicial e os objetos de conhecimento que achava conhecer):**
 
-> _…_
+> _No inicio do ciclo sabia apenas print, input e um pouco sobre os laços de repetição e pensava que não passaria muito disso, mas ao longo do tempo vi que python era muito mais complexo do que eu imaginava e com o passar do tempo fui vendo que precisava aprender diversos assuntos e que era mais complexo do que eu imaginava.…_
 
 **7b. O que aprendi — conceitos, princípios ou relações técnicas que não dominava no início e que agora consigo explicar com precisão (mínimo 3 objetos de conhecimento):**
 
 | OBJETO DE CONHECIMENTO | O QUE EU NÃO DOMINAVA | O QUE APRENDI E CONSIGO DEMONSTRAR | EVIDÊNCIA (campo do Logbook onde aparece) |
-|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ |
+|OBjeto de conhecimento|Oque eu não dominava |O QUE APRENDI E CONSIGO DEMONSTRAR|EVIDÊNCIA|
+| _Funcões…_ | _Não entendia sobre como funcionava a separação do codigo em partes independentes.…_ | _Consigo agora criar funções para cada parte da operação do CRUD, conseguindo organizar melhor o programa…_ | _Ciclos 7,10 e 12…_ |
+| _Listas e dicionarios…_ | _Tinha muita dificuldade em armazenar e organizar os dados relacionados.…_ | _Usar uma lista de dicionario para armazenar e manipular as tarefas…_ | _ciclos 07-12…_ |
+| _Condicionais e validção…_ | _Tinha dificuldade para controlar as entradas invalidas.…_ | _Utilizar if,elif e else e tambem aprendi validações para bloquear dados invalidos…_ | _Ciclo 12…_ |
 
 **7c. Conceitos que precisei corrigir ao longo do ciclo — onde eu estava equivocado e o que o corrigiu (Fechamento Teórico, pesquisa, Peer Review, arguição):**
 
-1. **Equívoco:** _…_ — **Correção:** _…_
-   **O que corrigiu:** _…_
-2. **Equívoco:** _…_ — **Correção:** _…_
+1. **Equívoco:** _Pensava que para fazer a modificação de uma tarefa precisasse substituir todos os dados…_ — **Correção:** _Entendi que posso verificar os campos de forma individual e mudar so o que o usario pediu, sem precisar de uma correção brusca.…_
+   **O que corrigiu:** _pratica durante os testes do TaskFlow_
+2. **Equívoco:** _Pensava que receber uma entrada do usuario e transforma-la direto para numero era suficiente…_ — **Correção:** _Aprendi a autentificar a entrada antes de converter assim evitando erros de acontecer.…_
    **O que corrigiu:** _…_
 
 **7d. Transferência — como este aprendizado se aplica a um contexto diferente do problema trabalhado (ao menos 1 exemplo concreto da área de formação):**
 
-> _…_
+> _Poderia ser aplicado em outros contextos parecidos como um gerenciador de estoque que usaria de  listas e dicionarios para armazenar os produtos.…_
 
 **7e. Avaliação honesta do próprio percurso — o que ainda não domino e preciso aprofundar após este ciclo:**
 
-> _…_
+> _Bom aprendi bastante coisa sobre programção pyhon, porem preciso melhorar bastante ainda como em alguns conceitos da programção, principalmente em recursividade que para mim é assunto dificil e que pretendo estudar mais sobre.…_
 
 ---
 
@@ -839,10 +839,10 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 ### Registro do Encerramento — 18/11
-1. **O que apresentei/defendi (em 1 frase):** _…_
-2. **Objeto(s) de conhecimento que a banca mais explorou:** _…_
-3. **Pergunta que mais me desafiou e como respondi:** _…_
-4. **O que levo deste semestre para o próximo módulo:** _…_
+1. **O que apresentei/defendi (em 1 frase):** _Apresentei sobre o CRUD TasFlow que é um gerenciador de tarefas.…_
+2. **Objeto(s) de conhecimento que a banca mais explorou:** _Me fez perguntas mais tecnicas sobre como meu aplicativo funcionava e como o python  se encaixava nele.…_
+3. **Pergunta que mais me desafiou e como respondi:** _Se meu sistema era mais estetico ou funcionava na pratica, algo do tipo, realmente era mais estetico e foi um defeito na hora de produzir o aplicativo.…_
+4. **O que levo deste semestre para o próximo módulo:** _Levo que preciso aprender mais sobre programção mas tambem levo tudo que aprendi, funções, laços de repetições, como funciona as listas e dicionarios e etc... preciso estudar ainda mais sobre tudo e melhorar cada vez mais.…_
 
 ---
 
