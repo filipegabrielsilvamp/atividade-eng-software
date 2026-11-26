@@ -564,9 +564,9 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
-| **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Autor do CRUD revisado** | _Gustavo de Jesus Magalhaes Farias_ |
+| **Repositório revisado** | _https://github.com/GustavojmFarias2/Algoritmos-e-programa-UNDB_ |
+| **Revisor** | _Filipe Gabriel Silva Melo Pereira_ |
 | **Unidade curricular / Semestre** | Algoritmos e Programação · 2026.2 |
 | **Ciclo / data** | _Ciclo 09 · 21/10_ |
 
@@ -574,37 +574,37 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 5. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. _Analise de documentos e requisitos do CRUD…_ | Revisor | _21/11_ |(✅ ☐ Concluída) ☐ Em andamento ☐ Com desvio | _para requisitos de negocio e suas regras identificados no repositorio.…_ |
+| 2. _Ver as funcionalidades de cadastro,listagem,atualização e exclusão do programa.…_ | Revisor  | _21/11_ | (✅☐ Concluída ☐) Em andamento ☐ Com desvio | _ver se as funcionalidades da estutura do codigo estão corretas…_ |
+| 3. _Analise da logica  e das estruturas usadas…_ | Revisor  | _21/11_ | (✅☐ Concluída) ☐ Em andamento ☐ Com desvio | _identificar se variaveis,laços, condicionais e operadores estão sendo usados de forma correta…_ |
+| 4. _analisar as regras e validação do negocio…_ | Revisor  | _21/11_ | (✅☐ Concluída) ☐ Em andamento ☐ Com desvio | _Visto que tinha como melhorar o tratamento das entradas invalidas …_ |
+| 5. _Ver os pontos positivos e possiveis melhorias…_ | Revisor | _21/11_ | ☐ Concluída (✅☐ Em andamento) ☐ Com desvio | _Poderia ter um codigo mais pratico e completo.…_ |
 
 **5b. ANÁLISE DE INSUMOS E CRITÉRIOS DE QUALIDADE:**
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
-|---|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
+|Recurso---|QTDE PLANEJADA---|QTDE UTILIZADA---|VARIAÇÃO---|JUSTIFICATIVA TECNICA---|
+| _ Codigo python…_ | _1…_ | _1…_ | sem varição_…_ | _foi usado com o objetivo de analisar logica e funcionalidade do CRUD…_ |
+| _README do GitHub…_ | _1…_ | _1…_ | _sem…_ | _Usado para colocar o codigo e expressar as ideias e objetivos…_ |
+| _Repositorio do GitHub…_ | _1…_ | _1…_ | _sem…_ | _Utilizado para acessar o projeto.…_ |
 
 **5c. CONTROLE DE QUALIDADE:**
-- **Critério ou norma técnica:** _…_
-- **A solução atende?** ☐ Sim ☐ Parcialmente ☐ Não
+- **Critério ou norma técnica:** _Requisitos funcionais e regras de negocios em documentos no README od HEVY, analisando a logica de cadastro,atualização, consulta,exclusão e validação de dados.…_
+- **A solução atende?** ☐ Sim (✅☐ Parcialmente)☐ Não
 
 **5d. GESTÃO DE RISCOS:**
-- **Risco:** _…_
-- **Estratégia de mitigação:** _…_
+- **Risco:** _Entrada de dados invalidos pelo usuario, como as letras em campos numericos, podendo interromper a execução do programa.…_
+- **Estratégia de mitigação:** _Colocar o tratamento de entradas invalidas, try e except.…_
 
 **5e. RASTREABILIDADE DAS DECISÕES TÉCNICAS — COM VÍNCULO AO CONTEÚDO:**
 
 | DATA | DECISÃO TÉCNICA | RESP. | OBJETO DE CONHECIMENTO MOBILIZADO | FUNDAMENTAÇÃO / REFERÊNCIA |
 |---|---|---|---|---|
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
+| _21/11/26_ | _analisar a organização das variaveis usadas no armazenamento dos dados…_ | _Revisor…_ | _ Variaveis e tipos de dados…_ |Os dados do exercicio são armazenados e fornecem informações do exercicio ref: HEVY E curso em video python …_ |
+| _21/11/26_ | _Verifica o controle das operações por meio das condições…_ | _REVISOR…_ | _Estruturas condcionais…_ | _As condicionais direcionam as operações do menu e verifica se ha exercicio cadastrado: HEVY e python cruso em video…_ |
+| _21/11/26_ | _avalia a validação dos usuarios pelos dados.…_ | _REVISOR…_ | _operadores relacionais e logicos…_ | _o codigo vai utilizar de comparação e operador logico para validar nome, series,repeticão e carga ref: HEVY E  CURSO EM VIDEO PYTHON…_ |
+| _21/11/26_ | _Analise de repetição do menu e das validações…_ | _REVISOR…_ | _Estrutura de repetição…_ | _O laço while mantem o menu em execução fazendo com que permita as repetição de dados ate que determinadas condições sejam atendidas, ref HEVY  e curso em video…_ |
+| _21/11/26_ | _Identificar melhorias no armazenamento e tratamento de erros…_ | _REVISOR…_ | _Listas,tratamento de exceções  e logica de programação…_ | _ o armazenamento permite apenas um exercico e não trata entradas numericas invalidas. listas e tratamentos de execções são conhecimetos que podem melhorar o programa deixando-o mais completo. ref: HEVY e curso em vido python…_ |
 
 > **IMPORTANTE:** Decisão registrada sem objeto de conhecimento associado e sem referência é considerada **não rastreável** e não conta para a avaliação formativa. O vínculo entre processo e conteúdo é obrigatório em todas as decisões relevantes.
 
@@ -702,46 +702,46 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
-| **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Autor do CRUD revisado** | _Gustavo de Jesus Magalhaes Farias_ |
+| **Repositório revisado** | _https://github.com/GustavojmFarias2/Algoritmos-e-programa-UNDB_ |
+| **Revisor** | _Filipe Gabriel Silva Melo Pereira_ |
 | **Ciclo / data** | _Ciclo 12 · 11/11_ |
 
 **5a. AVANÇO DO PROCESSO DE REVISÃO:**
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 5. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. _Reanalise da estrutura e requisitos do CRUD …_ | Revisor  | _23/11_ | (✅☐ Concluída) ☐ Em andamento ☐ Com desvio | _Revisão dos requisitos e da organização do codigo…_ |
+| 2. _Verificar as funcionalidades do CRUD…_ | Revisor  | _26/11_ | (✅☐ Concluída) ☐ Em andamento ☐ Com desvio | _Analise do cadastro, listagem,atualização e exclusão…_ |
+| 3. _Verificar a logica e validações…_ | Revisor  | _26/11_ |(✅ ☐ Concluída) ☐ Em andamento ☐ Com desvio | _identificar as condições e validações dos dados inseridos…_ |
+| 4. _avaliar a organização e limitações do codigo…_ | Revisor | _26/11_ | (✅☐ Concluída) ☐ Em andamento ☐ Com desvio | _identificada a limitação de armazenamento de apenas um exercicio e a ausencia de tratamento de erros numericos…_ |
+| 5. _consolidaçaõ das recomendações de melhoria…_ | Revisor  | _26/11_ | (✅☐ Concluída) ☐ Em andamento ☐ Com desvio | _Recomendações voltadas a validaçãp de entradas e a possibilidade de armazenar diversos exercicios…_ |
 
 **5b. ANÁLISE DE INSUMOS E CRITÉRIOS DE QUALIDADE:**
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
 |---|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
+| _codigo fonte python…_ | 1_…_ | _1…_ | _sem variante…_ | _usado para aprofundar a analise da logica e das funcionalidades…_ |
+| _README do projeto…_ | _1…_ | _1…_ | _sem…_ | _utilizado para comparar os requisitos com a implementação…_ |
+| _repositorio do GitHub…_ | _1…_ | _1…_ | _sem…_ | _Utilizado para o armazenamento do projeto…_ |
 
 **5c. CONTROLE DE QUALIDADE:**
-- **Critério ou norma técnica:** _…_
-- **A solução atende?** ☐ Sim ☐ Parcialmente ☐ Não
+- **Critério ou norma técnica:** _verificação da implementaçãp dos requisitos funcionais, validação dos dados, organização da logica e comportamento esperado das operações do CRUD…_
+- **A solução atende?** ☐ Sim (✅☐ Parcialmente) ☐ Não
 
 **5d. GESTÃO DE RISCOS:**
-- **Risco:** _…_
-- **Estratégia de mitigação:** _…_
+- **Risco:** _Utilização de entradas invalidas pode causar erros durante a execução e a estrutura de aramzenamento atual limita o sistema por fazer gerenciamento de um unico exercicio…_
+- **Estratégia de mitigação:** _melhorar o tratamento de entradas, implementar  mecanismos de validação seguros e colcar listas para permitir um melhor armazenamento…_
 
 **5e. RASTREABILIDADE DAS DECISÕES TÉCNICAS — COM VÍNCULO AO CONTEÚDO:**
 
 | DATA | DECISÃO TÉCNICA | RESP. | OBJETO DE CONHECIMENTO MOBILIZADO | FUNDAMENTAÇÃO / REFERÊNCIA |
 |---|---|---|---|---|
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
+| _26/11/26_ | __identificar o uso de variaveis para armazenamento dos dados do exercicio…_ | _REVISOR…_ | _Variaveis e tipos de dados…_ | _Os dados da tarefa vão ser armazenados em variaveis individuais e utilzar diversos tipos adequados para cada informação. Ref:HEVY no repositorio eurso em video python…_ |
+| _26/11/26_ | _Analisar as condições de cadastro,atualização e exclusão…_ | _REVISOR…_ | _Estruturas condicionais…_ | _As condicionais vão controlar as opcões presentes no menu, ref:HEVY NO README E curso em video python_
+| _26/11/26_ | _Analise das validações dos valores de series, repetições e carga._ | _REVISOR…_ | _operadores relacionais e codigos…_ | _Os operadores vão ser usados para confirmar se os valores atendem as regras de negocios definidas ref: RN02,RN03 E RN04 e curso em video python…_ 
+| _26/11/26_ | _valiação da repetição do menu e das solicitações de dados_ | _REVISOR…_ |  _estruturas de repetições_ | _Os laços while vão permitir manter o menu ativo e repetir as solicitações quando os dados não atenderem as condições. ref: Curso em video python e codigo HEVY…_ 
+| _26/11/26_ | __melhoria no armazenamento dos exercicios e tratar entradas invalidas…_ | _REVISOR…_ | _listas e tratamento de exceções…_ | _o uso da lista vai permitir o armazenamento de varios exercicios e o tratamento de exceções vai evitar interrupção por entradas invalidas. ref: curso em video python e HEVY …_
 
 ### 🧩 CAMPO 07 — Evolução conceitual
 *AV Qualis — Grupo 3 | Individual | Quinta 26/11, 23h59*
@@ -765,7 +765,7 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 1. **Equívoco:** _Pensava que para fazer a modificação de uma tarefa precisasse substituir todos os dados…_ — **Correção:** _Entendi que posso verificar os campos de forma individual e mudar so o que o usario pediu, sem precisar de uma correção brusca.…_
    **O que corrigiu:** _pratica durante os testes do TaskFlow_
 2. **Equívoco:** _Pensava que receber uma entrada do usuario e transforma-la direto para numero era suficiente…_ — **Correção:** _Aprendi a autentificar a entrada antes de converter assim evitando erros de acontecer.…_
-   **O que corrigiu:** _…_
+   **O que corrigiu:** _pratica durante os testes do TaskFLow …_
 
 **7d. Transferência — como este aprendizado se aplica a um contexto diferente do problema trabalhado (ao menos 1 exemplo concreto da área de formação):**
 
